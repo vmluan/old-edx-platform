@@ -857,7 +857,7 @@ STATICFILES_DIRS = [
     PROJECT_ROOT / "static",
 ]
 
-FAVICON_PATH = 'images/favicon.ico'
+FAVICON_PATH = 'images/favicon.ico?v=10'
 DEFAULT_COURSE_ABOUT_IMAGE_URL = 'images/pencils.jpg'
 
 # User-uploaded content
@@ -866,7 +866,7 @@ MEDIA_URL = '/media/'
 
 # Locale/Internationalization
 TIME_ZONE = 'America/New_York'  # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
-LANGUAGE_CODE = 'en'  # http://www.i18nguy.com/unicode/language-identifiers.html
+LANGUAGE_CODE = 'vi'  # http://www.i18nguy.com/unicode/language-identifiers.html
 # these languages display right to left
 LANGUAGES_BIDI = ("he", "ar", "fa", "ur", "fa-ir", "rtl")
 
@@ -1083,7 +1083,7 @@ FOOTER_OPENEDX_URL = "http://open.edx.org"
 # * https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png
 # * https://files.edx.org/openedx-logos/edx-openedx-logo-tag-light.png"
 # * https://files.edx.org/openedx-logos/edx-openedx-logo-tag-dark.png
-FOOTER_OPENEDX_LOGO_IMAGE = "https://files.edx.org/openedx-logos/edx-openedx-logo-tag.png"
+FOOTER_OPENEDX_LOGO_IMAGE = "http://horus.vn/wp-content/uploads/2016/04/default-logo-1.png"
 
 # This is just a placeholder image.
 # Site operators can customize this with their organization's image.

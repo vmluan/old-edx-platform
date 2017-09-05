@@ -32,8 +32,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-05-11 14:55+0000\n"
-"PO-Revision-Date: 2017-05-11 14:55:07.422808\n"
+"POT-Creation-Date: 2017-08-03 08:48+0000\n"
+"PO-Revision-Date: 2017-08-03 08:48:44.175245\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -4349,8 +4349,7 @@ msgstr ""
 #. #-#-#-#-#  mako.po (0.1a)  #-#-#-#-#
 #. Translators: 'Open edX' is a brand, please keep this untranslated. See
 #. http://openedx.org for more information.
-#: lms/djangoapps/branding/api.py cms/templates/widgets/footer.html
-#: themes/red-theme/lms/templates/footer.html
+#: lms/djangoapps/branding/api.py themes/red-theme/lms/templates/footer.html
 msgid "Powered by Open edX"
 msgstr ""
 
@@ -6490,11 +6489,14 @@ msgstr ""
 msgid "No due date extension is set for that student and unit."
 msgstr ""
 
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's full name.
 #: lms/djangoapps/instructor/views/tools.py
 #: lms/djangoapps/instructor_task/tasks_helper/enrollments.py
-#: cms/templates/register.html lms/templates/register-form.html
-#: lms/templates/register-shib.html lms/templates/signup_modal.html
-#: lms/templates/sysadmin_dashboard.html
+#: openedx/core/djangoapps/user_api/views.py cms/templates/register.html
+#: lms/templates/register-form.html lms/templates/register-shib.html
+#: lms/templates/signup_modal.html lms/templates/sysadmin_dashboard.html
 #: themes/stanford-style/lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "Full Name"
@@ -9223,6 +9225,13 @@ msgid ""
 "different username."
 msgstr ""
 
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's email address.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This is what you will use to login."
+msgstr ""
+
 #. Translators: This label appears above a field on the registration form
 #. meant to confirm the user's email address.
 #: openedx/core/djangoapps/user_api/views.py
@@ -9230,50 +9239,45 @@ msgid "Confirm Email"
 msgstr ""
 
 #: openedx/core/djangoapps/user_api/views.py
-msgid "Please confirm your email."
-msgstr ""
-
-#. Translators: This label appears above a field on the registration form
-#. meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Full name"
+msgid "Please confirm your email address."
 msgstr ""
 
 #. Translators: This example name is used as a placeholder in
 #. a field on the registration form meant to hold the user's name.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "Jane Doe"
+msgid "Jane Q. Learner"
 msgstr ""
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-form.html
-msgid "Your legal name, used for any certificates you earn."
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This name will be used on any certificates that you earn."
 msgstr ""
 
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Public username"
+#: openedx/core/djangoapps/user_api/views.py cms/templates/register.html
+#: lms/templates/register-form.html lms/templates/register-shib.html
+#: lms/templates/signup_modal.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "Public Username"
 msgstr ""
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's public username.
 #: openedx/core/djangoapps/user_api/views.py
-#, python-brace-format
 msgid ""
-"The name that will identify you in your courses - {bold_start}(cannot be "
-"changed later){bold_end}"
+"The name that will identify you in your courses. It cannot be changed later."
 msgstr ""
 
 #. Translators: This example username is used as a placeholder in
 #. a field on the registration form meant to hold the user's username.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "JaneDoe"
+msgid "Jane_Q_Learner"
 msgstr ""
 
 #. Translators: This label appears above a dropdown menu on the registration
@@ -10047,7 +10051,10 @@ msgstr ""
 #: cms/templates/login.html cms/templates/widgets/header.html
 #: themes/red-theme/cms/templates/login.html
 msgid "Sign In"
-msgstr ""
+msgstr "Dang nhap"
+
+msgid "Sign in 2"
+msgstr "Dang nhap"
 
 #: cms/templates/login.html themes/red-theme/cms/templates/login.html
 msgid "Sign In to {studio_name}"
@@ -10093,13 +10100,6 @@ msgstr ""
 #: cms/templates/register.html lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "example: Jane Doe"
-msgstr ""
-
-#: cms/templates/register.html lms/templates/register-form.html
-#: lms/templates/register-shib.html lms/templates/signup_modal.html
-#: themes/stanford-style/lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-shib.html
-msgid "Public Username"
 msgstr ""
 
 #. Translators: This is the placeholder text for a field that asks the user to
@@ -11170,6 +11170,11 @@ msgstr ""
 #: lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "Please complete the following fields to register for an account. "
+msgstr ""
+
+#: lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-form.html
+msgid "Your legal name, used for any certificates you earn."
 msgstr ""
 
 #: lms/templates/register-form.html lms/templates/register-shib.html
@@ -16164,7 +16169,6 @@ msgid "My Courses"
 msgstr ""
 
 #: lms/templates/learner_dashboard/program_details.html
-#: lms/templates/learner_dashboard/program_details_2017.html
 msgid "Program Details"
 msgstr ""
 
@@ -20436,6 +20440,10 @@ msgstr ""
 msgid ""
 "EdX, Open edX, Studio, and the edX and Open edX logos are registered "
 "trademarks or trademarks of {link_start}edX Inc.{link_end}"
+msgstr ""
+
+#: cms/templates/widgets/footer.html
+msgid "Powered by Horus"
 msgstr ""
 
 #: cms/templates/widgets/header.html

@@ -753,7 +753,7 @@
     "Match case": "Ajuster la casse", 
     "Max file size exceeded": "Taille maximale de fichier d\u00e9pass\u00e9e", 
     "Maximum": "Maximum", 
-    "Membership": "Inscription", 
+    "Membership": "Inscription 3", 
     "Merge cells": "Fusionner les cellules", 
     "Message:": "Message :", 
     "Middle": "Milieu", 

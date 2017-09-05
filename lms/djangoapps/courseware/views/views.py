@@ -180,7 +180,7 @@ def courses(request):
     return render_to_response(
         "courseware/courses.html",
         {
-            'courses': courses_list,
+            'courses2': courses_list,
             'course_discovery_meanings': course_discovery_meanings,
             'programs_list': programs_list
         }

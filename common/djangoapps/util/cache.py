@@ -76,7 +76,7 @@ def cache_if_anonymous(*get_parameters):
                 response = cache.get(cache_key)  # pylint: disable=maybe-no-member
                 if not response:
                     response = view_func(request, *args, **kwargs)
-                    cache.set(cache_key, response, 60 * 3)  # pylint: disable=maybe-no-member
+                    cache.set(cache_key, response, 0 * 3)  # pylint: disable=maybe-no-member
 
                 return response
 

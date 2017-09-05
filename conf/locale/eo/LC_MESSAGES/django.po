@@ -32,8 +32,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-05-11 14:55+0000\n"
-"PO-Revision-Date: 2017-05-11 14:55:07.422808\n"
+"POT-Creation-Date: 2017-08-02 06:57+0000\n"
+"PO-Revision-Date: 2017-08-02 06:57:48.320959\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -5662,19 +5662,8 @@ msgstr ""
 #. Please do not translate any of these trademarks and company names.
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
-msgid ""
-"© {org_name}.  All rights reserved except where noted.  EdX, Open edX and "
-"the edX and Open EdX logos are registered trademarks or trademarks of edX "
-"Inc."
-msgstr ""
-"© {org_name}.  Àll rïghts résérvéd éxçépt whéré nötéd.  ÉdX, Öpén édX änd "
-"thé édX änd Öpén ÉdX lögös äré régïstéréd trädémärks ör trädémärks öf édX "
-"Ìnç. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
-"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυα. υт єηιм α∂ мιηιм"
-" νєηιαм, qυιѕ ησѕтяυ∂ єχєя¢ιтαтιση υłłαм¢σ łαвσяιѕ ηιѕι υт αłιqυιρ єχ єα "
-"¢σммσ∂σ ¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт"
-" єѕѕє ¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕιηт σ¢¢αє¢αт "
-"¢υρι∂αтαт ηση ρяσι∂єηт, ѕυηт ιη ¢υłρα qυι σƒƒι¢ια ∂єѕєяυηт мσłłιт αηιм ι∂#"
+msgid "© {org_name}.  Developed by Horus"
+msgstr "© {org_name}.  Dévélöpéd ßý Hörüs Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕ#"
 
 #. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: 'Open edX' is a brand, please keep this untranslated.
@@ -8402,11 +8391,14 @@ msgstr ""
 "Nö düé däté éxténsïön ïs sét för thät stüdént änd ünït. Ⱡ'σяєм ιρѕυм ∂σłσя "
 "ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's full name.
 #: lms/djangoapps/instructor/views/tools.py
 #: lms/djangoapps/instructor_task/tasks_helper/enrollments.py
-#: cms/templates/register.html lms/templates/register-form.html
-#: lms/templates/register-shib.html lms/templates/signup_modal.html
-#: lms/templates/sysadmin_dashboard.html
+#: openedx/core/djangoapps/user_api/views.py cms/templates/register.html
+#: lms/templates/register-form.html lms/templates/register-shib.html
+#: lms/templates/signup_modal.html lms/templates/sysadmin_dashboard.html
 #: themes/stanford-style/lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "Full Name"
@@ -11902,6 +11894,14 @@ msgstr ""
 "Ìt lööks lïké {username} ßélöngs tö än éxïstïng äççöünt. Trý ägäïn wïth ä "
 "dïfférént üsérnämé. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢#"
 
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's email address.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This is what you will use to login."
+msgstr ""
+"Thïs ïs whät ýöü wïll üsé tö lögïn. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
+
 #. Translators: This label appears above a field on the registration form
 #. meant to confirm the user's email address.
 #: openedx/core/djangoapps/user_api/views.py
@@ -11909,55 +11909,51 @@ msgid "Confirm Email"
 msgstr "Çönfïrm Émäïl Ⱡ'σяєм ιρѕυм ∂σłσя ѕι#"
 
 #: openedx/core/djangoapps/user_api/views.py
-msgid "Please confirm your email."
-msgstr "Pléäsé çönfïrm ýöür émäïl. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕ#"
-
-#. Translators: This label appears above a field on the registration form
-#. meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Full name"
-msgstr "Füll nämé Ⱡ'σяєм ιρѕυм ∂σł#"
+msgid "Please confirm your email address."
+msgstr ""
+"Pléäsé çönfïrm ýöür émäïl äddréss. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєт#"
 
 #. Translators: This example name is used as a placeholder in
 #. a field on the registration form meant to hold the user's name.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "Jane Doe"
-msgstr "Jäné Döé Ⱡ'σяєм ιρѕυм ∂#"
+msgid "Jane Q. Learner"
+msgstr "Jäné Q. Léärnér Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-form.html
-msgid "Your legal name, used for any certificates you earn."
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This name will be used on any certificates that you earn."
 msgstr ""
-"Ýöür légäl nämé, üséd för äný çértïfïçätés ýöü éärn. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт "
-"αмєт, ¢σηѕє¢тєтυя α#"
+"Thïs nämé wïll ßé üséd ön äný çértïfïçätés thät ýöü éärn. Ⱡ'σяєм ιρѕυм ∂σłσя"
+" ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Public username"
-msgstr "Püßlïç üsérnämé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
+#: openedx/core/djangoapps/user_api/views.py cms/templates/register.html
+#: lms/templates/register-form.html lms/templates/register-shib.html
+#: lms/templates/signup_modal.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "Public Username"
+msgstr "Püßlïç Ûsérnämé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's public username.
 #: openedx/core/djangoapps/user_api/views.py
-#, python-brace-format
 msgid ""
-"The name that will identify you in your courses - {bold_start}(cannot be "
-"changed later){bold_end}"
+"The name that will identify you in your courses. It cannot be changed later."
 msgstr ""
-"Thé nämé thät wïll ïdéntïfý ýöü ïn ýöür çöürsés - {bold_start}(çännöt ßé "
-"çhängéd lätér){bold_end} Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тє#"
+"Thé nämé thät wïll ïdéntïfý ýöü ïn ýöür çöürsés. Ìt çännöt ßé çhängéd lätér."
+" Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
 
 #. Translators: This example username is used as a placeholder in
 #. a field on the registration form meant to hold the user's username.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "JaneDoe"
-msgstr "JänéDöé Ⱡ'σяєм ιρѕυм #"
+msgid "Jane_Q_Learner"
+msgstr "Jäné_Q_Léärnér Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's highest completed level of education.
@@ -12926,13 +12922,6 @@ msgstr "Förgöt pässwörd? Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αм#"
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "example: Jane Doe"
 msgstr "éxämplé: Jäné Döé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
-
-#: cms/templates/register.html lms/templates/register-form.html
-#: lms/templates/register-shib.html lms/templates/signup_modal.html
-#: themes/stanford-style/lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-shib.html
-msgid "Public Username"
-msgstr "Püßlïç Ûsérnämé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
 
 #. Translators: This is the placeholder text for a field that asks the user to
 #. pick a username
@@ -14212,6 +14201,13 @@ msgid "Please complete the following fields to register for an account. "
 msgstr ""
 "Pléäsé çömplété thé föllöwïng fïélds tö régïstér för än äççöünt.  Ⱡ'σяєм "
 "ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
+
+#: lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-form.html
+msgid "Your legal name, used for any certificates you earn."
+msgstr ""
+"Ýöür légäl nämé, üséd för äný çértïfïçätés ýöü éärn. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт "
+"αмєт, ¢σηѕє¢тєтυя α#"
 
 #: lms/templates/register-form.html lms/templates/register-shib.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -20769,7 +20765,6 @@ msgid "My Courses"
 msgstr "Mý Çöürsés Ⱡ'σяєм ιρѕυм ∂σłσ#"
 
 #: lms/templates/learner_dashboard/program_details.html
-#: lms/templates/learner_dashboard/program_details_2017.html
 msgid "Program Details"
 msgstr "Prögräm Détäïls Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
 
@@ -26571,6 +26566,10 @@ msgstr ""
 "ÉdX, Öpén édX, Stüdïö, änd thé édX änd Öpén édX lögös äré régïstéréd "
 "trädémärks ör trädémärks öf {link_start}édX Ìnç.{link_end} Ⱡ'σяєм ιρѕυм "
 "∂σłσя #"
+
+#: cms/templates/widgets/footer.html
+msgid "Powered by Horus"
+msgstr "Pöwéréd ßý Hörüs Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αм#"
 
 #: cms/templates/widgets/header.html
 msgid "Current Course:"

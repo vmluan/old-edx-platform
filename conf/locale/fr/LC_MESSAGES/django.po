@@ -7131,7 +7131,7 @@ msgstr ""
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Membership"
-msgstr "Inscription"
+msgstr "Inscription 3"
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "Cohorts"
@@ -10950,6 +10950,10 @@ msgstr "Cours"
 msgid "Sign In"
 msgstr "Se Connecter"
 
+msgid "Sign in 2"
+msgstr "Se Connecter 2"
+
+
 #: cms/templates/login.html themes/red-theme/cms/templates/login.html
 msgid "Sign In to {studio_name}"
 msgstr "Se connecter à {studio_name}"
@@ -11955,7 +11959,7 @@ msgstr "Explorer les cours"
 #: themes/edx.org/lms/templates/header.html
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "Register"
-msgstr "Inscription"
+msgstr "Inscription 2"
 
 #: lms/templates/navigation.html themes/edx.org/lms/templates/header.html
 #: themes/red-theme/lms/templates/header.html
@@ -18633,7 +18637,7 @@ msgstr "Mon profil"
 
 #: themes/red-theme/lms/templates/header.html
 msgid "Register Now"
-msgstr "Inscription"
+msgstr "Inscription 3"
 
 #: themes/stanford-style/lms/templates/footer.html
 #: themes/stanford-style/lms/templates/static_templates/tos.html

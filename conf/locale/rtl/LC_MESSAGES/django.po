@@ -32,8 +32,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2017-05-11 14:55+0000\n"
-"PO-Revision-Date: 2017-05-11 14:55:07.422808\n"
+"POT-Creation-Date: 2017-08-02 06:57+0000\n"
+"PO-Revision-Date: 2017-08-02 06:57:48.320959\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -4857,14 +4857,8 @@ msgstr "حمثشسث ذاثذن فاث سغرفشط خب غخعق ثرفقغ."
 #. Please do not translate any of these trademarks and company names.
 #: lms/djangoapps/branding/api.py
 #, python-brace-format
-msgid ""
-"© {org_name}.  All rights reserved except where noted.  EdX, Open edX and "
-"the edX and Open EdX logos are registered trademarks or trademarks of edX "
-"Inc."
-msgstr ""
-"© {org_name}.  شمم قهلافس قثسثقدثي ثطذثحف صاثقث رخفثي.  ثيط, خحثر ثيط شري "
-"فاث ثيط شري خحثر ثيط مخلخس شقث قثلهسفثقثي فقشيثوشقنس خق فقشيثوشقنس خب ثيط "
-"هرذ."
+msgid "© {org_name}.  Developed by Horus"
+msgstr "© {org_name}.  يثدثمخحثي زغ اخقعس"
 
 #. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: 'Open edX' is a brand, please keep this untranslated.
@@ -7201,11 +7195,14 @@ msgstr "شر ثطفثريثي يعث يشفث وعسف زث مشفثق فاشر 
 msgid "No due date extension is set for that student and unit."
 msgstr "رخ يعث يشفث ثطفثرسهخر هس سثف بخق فاشف سفعيثرف شري عرهف."
 
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
+#. Translators: This label appears above a field on the registration form
+#. meant to hold the user's full name.
 #: lms/djangoapps/instructor/views/tools.py
 #: lms/djangoapps/instructor_task/tasks_helper/enrollments.py
-#: cms/templates/register.html lms/templates/register-form.html
-#: lms/templates/register-shib.html lms/templates/signup_modal.html
-#: lms/templates/sysadmin_dashboard.html
+#: openedx/core/djangoapps/user_api/views.py cms/templates/register.html
+#: lms/templates/register-form.html lms/templates/register-shib.html
+#: lms/templates/signup_modal.html lms/templates/sysadmin_dashboard.html
 #: themes/stanford-style/lms/templates/register-form.html
 #: themes/stanford-style/lms/templates/register-shib.html
 msgid "Full Name"
@@ -10286,6 +10283,13 @@ msgstr ""
 "هف مخخنس مهنث {username} زثمخرلس فخ شر ثطهسفهرل شذذخعرف. فقغ شلشهر صهفا ش "
 "يهببثقثرف عسثقرشوث."
 
+#. Translators: These instructions appear on the registration form,
+#. immediately
+#. below a field meant to hold the user's email address.
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This is what you will use to login."
+msgstr "فاهس هس صاشف غخع صهمم عسث فخ مخلهر."
+
 #. Translators: This label appears above a field on the registration form
 #. meant to confirm the user's email address.
 #: openedx/core/djangoapps/user_api/views.py
@@ -10293,53 +10297,47 @@ msgid "Confirm Email"
 msgstr "ذخربهقو ثوشهم"
 
 #: openedx/core/djangoapps/user_api/views.py
-msgid "Please confirm your email."
-msgstr "حمثشسث ذخربهقو غخعق ثوشهم."
-
-#. Translators: This label appears above a field on the registration form
-#. meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Full name"
-msgstr "بعمم رشوث"
+msgid "Please confirm your email address."
+msgstr "حمثشسث ذخربهقو غخعق ثوشهم شييقثسس."
 
 #. Translators: This example name is used as a placeholder in
 #. a field on the registration form meant to hold the user's name.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "Jane Doe"
-msgstr "تشرث يخث"
+msgid "Jane Q. Learner"
+msgstr "تشرث ض. مثشقرثق"
 
-#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's full name.
-#: openedx/core/djangoapps/user_api/views.py lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-form.html
-msgid "Your legal name, used for any certificates you earn."
-msgstr "غخعق مثلشم رشوث, عسثي بخق شرغ ذثقفهبهذشفثس غخع ثشقر."
+#: openedx/core/djangoapps/user_api/views.py
+msgid "This name will be used on any certificates that you earn."
+msgstr "فاهس رشوث صهمم زث عسثي خر شرغ ذثقفهبهذشفثس فاشف غخع ثشقر."
 
+#. #-#-#-#-#  django-partial.po (0.1a)  #-#-#-#-#
 #. Translators: This label appears above a field on the registration form
 #. meant to hold the user's public username.
-#: openedx/core/djangoapps/user_api/views.py
-msgid "Public username"
+#: openedx/core/djangoapps/user_api/views.py cms/templates/register.html
+#: lms/templates/register-form.html lms/templates/register-shib.html
+#: lms/templates/signup_modal.html
+#: themes/stanford-style/lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-shib.html
+msgid "Public Username"
 msgstr "حعزمهذ عسثقرشوث"
 
 #. Translators: These instructions appear on the registration form,
 #. immediately
 #. below a field meant to hold the user's public username.
 #: openedx/core/djangoapps/user_api/views.py
-#, python-brace-format
 msgid ""
-"The name that will identify you in your courses - {bold_start}(cannot be "
-"changed later){bold_end}"
+"The name that will identify you in your courses. It cannot be changed later."
 msgstr ""
-"فاث رشوث فاشف صهمم هيثرفهبغ غخع هر غخعق ذخعقسثس - {bold_start}(ذشررخف زث "
-"ذاشرلثي مشفثق){bold_end}"
+"فاث رشوث فاشف صهمم هيثرفهبغ غخع هر غخعق ذخعقسثس. هف ذشررخف زث ذاشرلثي مشفثق."
 
 #. Translators: This example username is used as a placeholder in
 #. a field on the registration form meant to hold the user's username.
 #: openedx/core/djangoapps/user_api/views.py
-msgid "JaneDoe"
-msgstr "تشرثيخث"
+msgid "Jane_Q_Learner"
+msgstr "تشرث_ض_مثشقرثق"
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's highest completed level of education.
@@ -11206,13 +11204,6 @@ msgstr "بخقلخف حشسسصخقي?"
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "example: Jane Doe"
 msgstr "ثطشوحمث: تشرث يخث"
-
-#: cms/templates/register.html lms/templates/register-form.html
-#: lms/templates/register-shib.html lms/templates/signup_modal.html
-#: themes/stanford-style/lms/templates/register-form.html
-#: themes/stanford-style/lms/templates/register-shib.html
-msgid "Public Username"
-msgstr "حعزمهذ عسثقرشوث"
 
 #. Translators: This is the placeholder text for a field that asks the user to
 #. pick a username
@@ -12342,6 +12333,11 @@ msgstr ""
 #: themes/stanford-style/lms/templates/register-form.html
 msgid "Please complete the following fields to register for an account. "
 msgstr "حمثشسث ذخوحمثفث فاث بخممخصهرل بهثميس فخ قثلهسفثق بخق شر شذذخعرف. "
+
+#: lms/templates/register-form.html
+#: themes/stanford-style/lms/templates/register-form.html
+msgid "Your legal name, used for any certificates you earn."
+msgstr "غخعق مثلشم رشوث, عسثي بخق شرغ ذثقفهبهذشفثس غخع ثشقر."
 
 #: lms/templates/register-form.html lms/templates/register-shib.html
 #: themes/stanford-style/lms/templates/register-form.html
@@ -18069,7 +18065,6 @@ msgid "My Courses"
 msgstr "وغ ذخعقسثس"
 
 #: lms/templates/learner_dashboard/program_details.html
-#: lms/templates/learner_dashboard/program_details_2017.html
 msgid "Program Details"
 msgstr "حقخلقشو يثفشهمس"
 
@@ -23011,6 +23006,10 @@ msgid ""
 msgstr ""
 "ثيط, خحثر ثيط, سفعيهخ, شري فاث ثيط شري خحثر ثيط مخلخس شقث قثلهسفثقثي "
 "فقشيثوشقنس خق فقشيثوشقنس خب {link_start}ثيط هرذ.{link_end}"
+
+#: cms/templates/widgets/footer.html
+msgid "Powered by Horus"
+msgstr "حخصثقثي زغ اخقعس"
 
 #: cms/templates/widgets/header.html
 msgid "Current Course:"

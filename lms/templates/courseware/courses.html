@@ -29,7 +29,7 @@
 % endif
 
 <%block name="pagetitle">${_("Courses")}</%block>
-
+Luan - debug the couses list page
 <main id="main" aria-label="Content" tabindex="-1">
     <section class="find-courses">
       <section class="courses-container">
@@ -54,10 +54,10 @@
         <div id="filter-bar" class="filters hide-phone is-collapsed">
         </div>
         % endif
-
+Luan2: ${courses2}
         <div class="courses${'' if course_discovery_enabled else ' no-course-discovery'}" role="region" aria-label="${_('List of Courses')}">
           <ul class="courses-listing">
-            %for course in courses:
+            %for course in courses2:
             <li class="courses-listing-item">
               <%include file="../course.html" args="course=course" />
             </li>
